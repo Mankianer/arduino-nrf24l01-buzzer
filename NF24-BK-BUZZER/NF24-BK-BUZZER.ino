@@ -74,10 +74,6 @@ boolean sendButtonPressed() {
 
   bk_msg.device = buzzerId;
   bk_msg.cmd = BK_BTN_PRESSED;
-  
-  Serial.print("msg-size:" + sizeof(bk_msg));
-  radio.setPayloadSize(sizeof(bk_msg));
-  
   bool send = radio.write(&bk_msg, sizeof(bk_msg));
   Serial.print("Send: ");
   Serial.println(send);
