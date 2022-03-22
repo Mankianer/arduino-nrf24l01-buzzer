@@ -20,7 +20,7 @@ The game master controls the buzzers. It receives signal from the pressed buzzer
 
 **Arduino Setup**
 - Copy NF24* folders to your your Arduino folder
-- Install library [RF24 by TMRh20](http://tmrh20.github.io/RF24/)
+- Install library [RF24 by TMRh20](http://tmrh20.github.io/RF24/) **user version 1.3**
 - (optional) Install Library [TMRpcm for wav-player](https://github.com/TMRh20/TMRpcm)
 
 **Parts** (Master)
@@ -42,3 +42,4 @@ The buzzer sends a button press to the master. Only if the buzzer "wins", the bu
 - NRF24l01
 - LED (buzzer light)
 - Touch Button (buzzer)
+
